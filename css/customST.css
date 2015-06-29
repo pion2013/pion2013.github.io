@@ -1,0 +1,287 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+.transbox {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #9077bb;
+  font-family: "Bradley_Hand_ITC", Arial, sans-serif;
+}
+
+a{
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #9077bb;
+  /*color: MediumSlateBlue;*/
+}
+
+a:hover, a:focus, .btn-afla:hover, .btn-contact:hover, .btn-abonare:hover {
+  color: #ff9a00;
+  text-decoration: none;
+}
+
+button.close {
+  margin-top: -45px;
+  margin-right: -45px;
+  color: #e6e6fa;
+  opacity: .6;
+}
+
+header.nutritie {
+  background-image: url(../img/grey_bg.jpg);
+}
+
+header.biorezonanta {
+  background-image: url(../img/sinus.png);
+}
+
+header.lumina {
+  background-image: url(../img/color_22.png);
+}
+
+header.contact {
+  background-image: url(../img/transparent.png);
+}
+
+header.segment-header > h1{
+  color: #9077bb;
+  padding: 50px; /* cu em apar diferente mari in box model 75px in loc de 40px*/
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+ul.contact li {
+  list-style-type: none;
+}
+
+#mc_embed_signup {
+  background:#fff; clear:left;
+
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.navbar {
+  min-height: 50px;
+  background-color: #eee;
+  opacity: .8;
+}
+
+/*
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  color: #ff9a00;
+  background-color: green;
+}
+*/
+
+.jumbotron {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.btn-afla, .btn-contact, .btn-abonare {
+  background-color: #9077bb;
+  color: white;
+}
+
+.modal-dialog {
+  width: 70%;
+  margin-top: 50px;
+}
+
+.carousel-inner > .item > img {
+  width: 80%;
+  margin: auto;
+}
+
+.carousel-caption > p, .glyphicon-chevron-left, .glyphicon-chevron-right {
+  color: #e6e6fa;
+}
+
+.carousel-caption > p {
+  font-weight: bolder;
+}
+
+.carousel-indicators li {
+  border: 1px solid #e6e6fa;
+}
+
+.close:focus, .close:hover {
+  color: #ff0000;
+  opacity: .7;
+}
+
+.homepage {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.homepage h1, .homepage h2, .homepage h3, .terapiidiv {
+  color: #ff0000;
+  font-family: 'Arvo', courier, serif;
+  text-transform: uppercase;
+}
+
+.homepage a {
+  color: #e74c3c;
+}
+
+.homepage a:hover {
+  color: #e74c3c;
+  text-decoration: none;
+  opacity: .8;
+}
+
+.homepage hr {
+  border-top: 1px solid #e74c3c;
+  width: 160px;
+  margin-top: 0;
+}
+
+span.terapidiv {
+  display: block;
+}
+
+.segment ul {
+  list-style-type: circle;
+}
+
+.terapii-wrapper {
+  background-image: url(../img/puncte.png);
+}
+
+.nutritie-wrapper {
+  background-image: url(../img/body-bg.png);
+}
+
+.biorezonanta-wrapper {
+  background-image: url(../img/grids.gif);
+ }
+
+.lumina-wrapper {
+  /*height: 100%;*/
+  background-image: url(../img/bg.png);
+}
+
+.contact-wrapper {
+  background-image: url(../img/puncte.png);
+}
+
+.nutritie-wrapper, .biorezonanta-wrapper, .lumina-wrapper, .contact-wrapper {
+  padding: 40px;
+  background-repeat: repeat;
+}
+
+.MediumPurple {
+  color: #9077bb ;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.indicates-required {
+  float: right;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%; /* This is the aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0;
+}
+
+.page-footer a {
+  font: 400 12px "Lato",sans-serif;
+  float: right;
+  text-decoration: none;
+}
+
+/* Font Bradley Hand ITC */
+
+@font-face {
+  font-family: Bradley_Hand_ITC;
+  src: url(../fonts/Bradley_Hand_ITC.ttf);
+}
+
+/* Responsive Styling */
+
+@media (min-width: 1199px){
+  div p, ul.nutritie li {
+    font-size: 1.5em;
+  }
+  .terapiidiv {
+    font-size: 3em;
+  }
+}
+
+
+@media (max-width: 1199px){
+  div p, ul.nutritie li {
+    font-size: 1.4em;
+  }
+  .terapiidiv {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 991px){
+  div p, ul.nutritie li {
+    font-size: 1.3em;
+  }
+  #terapii .col-md-4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .terapiidiv {
+    font-size: 2.3em;
+  }
+}
+
+@media (max-width: 767px){
+  div p, ul.nutritie li, ul.biorezonanta li, ul.lumina li, ol li {
+    font-size: 1em;
+  }
+  a {
+    font-size: 1em;
+  }
+  ul.contact {
+    padding: 0;
+  }
+  .terapiidiv {
+    font-size: 2.3em;
+  }
+  .tel-email{
+    font-size: 1em;
+  }
+  .jumbotron p {
+    font-size: 1em;
+    padding: 0;
+  }
+  .btn-afla {
+    padding: 5px 8px;
+  }
+}
+
+/*de reparat*/
+.navbar-toggle {
+  background-color: #9077bb;
+  border: 1px solid black;
+}
+
